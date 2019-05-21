@@ -12,6 +12,10 @@
 		C593C4AF2091A80400FA70BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C593C4AD2091A80400FA70BC /* Main.storyboard */; };
 		C593C4B12091A80600FA70BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C593C4B02091A80600FA70BC /* Assets.xcassets */; };
 		C593C4B42091A80600FA70BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C593C4B22091A80600FA70BC /* LaunchScreen.storyboard */; };
+		C5B018002091D8190008DA3E /* pm_dummy_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5B017FF2091D8190008DA3E /* pm_dummy_image.jpg */; };
+		C5B018022091DE5C0008DA3E /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5B018012091DE5C0008DA3E /* cat.jpg */; };
+		C5FE29442092F12A001B77DA /* GuessGame.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5FE29432092F12A001B77DA /* GuessGame.storyboard */; };
+		C5FE29462092F547001B77DA /* GuessGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FE29452092F547001B77DA /* GuessGameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		C593C4B02091A80600FA70BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C593C4B32091A80600FA70BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C593C4B52091A80600FA70BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5B017FF2091D8190008DA3E /* pm_dummy_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pm_dummy_image.jpg; path = ../../../../../Desktop/pm_dummy_image.jpg; sourceTree = "<group>"; };
+		C5B018012091DE5C0008DA3E /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat.jpg; path = ../../../../../Desktop/cat.jpg; sourceTree = "<group>"; };
+		C5FE29432092F12A001B77DA /* GuessGame.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GuessGame.storyboard; sourceTree = "<group>"; };
+		C5FE29452092F547001B77DA /* GuessGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessGameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +64,11 @@
 			children = (
 				C593C4A92091A80400FA70BC /* AppDelegate.swift */,
 				C593C4AB2091A80400FA70BC /* ViewController.swift */,
+				C5FE29452092F547001B77DA /* GuessGameViewController.swift */,
+				C5FE29432092F12A001B77DA /* GuessGame.storyboard */,
 				C593C4AD2091A80400FA70BC /* Main.storyboard */,
+				C5B018012091DE5C0008DA3E /* cat.jpg */,
+				C5B017FF2091D8190008DA3E /* pm_dummy_image.jpg */,
 				C593C4B02091A80600FA70BC /* Assets.xcassets */,
 				C593C4B22091A80600FA70BC /* LaunchScreen.storyboard */,
 				C593C4B52091A80600FA70BC /* Info.plist */,
@@ -122,9 +134,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5B018022091DE5C0008DA3E /* cat.jpg in Resources */,
 				C593C4B42091A80600FA70BC /* LaunchScreen.storyboard in Resources */,
+				C5FE29442092F12A001B77DA /* GuessGame.storyboard in Resources */,
 				C593C4B12091A80600FA70BC /* Assets.xcassets in Resources */,
 				C593C4AF2091A80400FA70BC /* Main.storyboard in Resources */,
+				C5B018002091D8190008DA3E /* pm_dummy_image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5FE29462092F547001B77DA /* GuessGameViewController.swift in Sources */,
 				C593C4AC2091A80400FA70BC /* ViewController.swift in Sources */,
 				C593C4AA2091A80400FA70BC /* AppDelegate.swift in Sources */,
 			);
